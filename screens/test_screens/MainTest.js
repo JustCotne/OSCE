@@ -81,7 +81,7 @@ const MainTest = ({ route }) => {
               answers: answersData,
               mark: ownMark,
             });
-            // navigation.navigate("Home");
+            navigation.navigate("Home");
           },
         },
       ],
@@ -107,7 +107,7 @@ const MainTest = ({ route }) => {
         <Text style={styles.title}>ოთახი {roomNum}</Text>
         {testStarted ? (
           <CountDown
-            until={300}
+            until={600}
             size={20}
             onFinish={submitAnswers}
             digitStyle={{ backgroundColor: '#FFF' }}

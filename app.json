@@ -2,7 +2,7 @@
   "expo": {
     "name": "ExamBuddy",
     "slug": "exambuddy",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -25,6 +25,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fb7154ce-f228-477b-9424-815befe0ee33"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fb7154ce-f228-477b-9424-815befe0ee33"
     }
   }
 }
